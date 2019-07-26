@@ -1,0 +1,300 @@
+
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url('https://fonts.googleapis.com/css?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style:none;
+}
+
+body{
+    font-family: 'OpenSans', sans-serif;
+}
+
+header{
+    width: 100%;
+    background: #000;
+    display:flex;
+}
+
+.header_logo{
+    text-decoration: uppercase;
+    color: #fff;
+    font-weight: 800;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 52px;
+    margin-left: 12%;
+}
+
+nav{
+    margin-top: 56px;
+    margin-left: 56%;
+
+}
+
+.topnav a{
+    color:#fff;
+    text-align: center;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.topnav a:hover{
+    border-bottom:3px solid #fcac45;
+}
+
+.topnav .icon{
+    display: none;
+}
+
+main{
+    /* margin-top:5px; */
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.tshirt{
+    height: 300px;
+}
+
+main .main_welcome{
+   
+    background: #000;
+    text-align:  center;
+    padding: 80px 0px 410px 0px;
+    
+
+}
+
+main .main_welcome p{
+color: #999999;
+font-size: 20px;
+font-family: 'Roboto', sans-serif;
+}
+
+main .main_welcome h1{
+    color:  #999999;
+    font-size: 30 px;
+    font-family: 'Roboto', sans-serif;
+    }
+
+.mycompany{
+    color:#ff5e00;
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main .main_about{
+    display:flex;
+    padding:100px 100px 0;
+}
+
+.about_right{
+    margin-left: 100px;
+}
+
+.about_right h1{
+    display: inline-block;
+    border-bottom: 3px solid #fcac45;
+    padding-bottom: 20px;
+}
+
+.about_right p{
+    margin: 30px 0 50px 0;
+    color:#6c6c6c;
+
+}
+
+.about_right li{
+    background: url(img/point.png) 0px no-repeat;
+    padding-left: 25px;
+    margin-top: 10px; 
+}
+
+.line{
+    width: 100px;
+    height: 2px;
+    background: #fcac45;
+    position: relative;
+    left: 45.5%;
+    margin-bottom: 100px;
+}
+
+.photo{
+    background:grey;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin:20px auto;
+}
+
+.name{
+   font-size: 20px;
+   margin-bottom: 7px;
+
+}
+
+.position{
+font-size: 16px;
+margin-bottom: 20px;
+}
+
+.about_position{
+    font-size: 14px
+}
+
+
+
+.main_team{
+    background: black;
+    text-align: center;
+    padding: 100px 0 156px 0;
+    color:white;
+}
+
+.main_team h1{
+    font-size: 44px;
+    padding-bottom: 30px;
+
+}
+
+.team_cards{
+    display: flex;
+
+}
+
+.services_cards{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+    /* margin-bottom: 5px; */
+}
+
+.main_services h1{
+    text-align: center;
+    padding: 100px 0 30px 0
+}
+
+.main_services p{
+   color: #6c6c6c;
+   margin-bottom: 100px;
+}
+
+.services_card h4{
+   margin-top: 24px;
+   margin-bottom: 20px;
+}
+
+.main_clients{
+    background: black;
+    padding: 100px 0 205px 0;
+    color: white;
+    text-align: center;
+}
+
+.main_clients h1{
+    margin-bottom: 30px;
+}
+
+.main_clients img{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.main_testimonials{
+   background: black;
+   text-align:center;
+   color: white ;
+   text-transform: uppercase;
+   padding-bottom: 170px;
+}
+
+.main_testimonials h1{
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-bottom: 
+}
+
+.main_testimonials p{
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.main_work{
+text-align: center;
+padding: 100px 0 100px 0;
+
+}
+
+.main-work img{
+    margin: 0 30px 30px 0;
+   }
+
+.main_work h1{
+       margin-bottom: 30px;
+   }
+
+   .main_work p{
+       margin-bottom: 175px;
+       color:grey
+   }
+
+   .main_work img:hover{
+       opacity: 0.9;
+   }
+
+
+
+   .contact_wrapper{
+       width: 753px;
+       margin: 0 auto;
+       color: #636363;
+   }
+
+   .red{
+       color: red
+   }
+   .input{
+       width: 360px;
+       height: 40px;
+       font-size: 20px;
+       margin-bottom: 30px;
+   }
+
+   .form_inputs{
+       display: flex;
+       margin-top: 100px;
+   }
+
+   input :first-of-type{
+       margin-right: 28px;
+   }
+
+   textarea{
+       width: 100%;
+       height: 163px;
+   }
+
+   input, textarea{
+       border: 1px solid ;
+   }

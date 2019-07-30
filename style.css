@@ -108,6 +108,7 @@ main .main_about {
 }
 
 .about_right h1 {
+    padding-top: 5px;
     display: inline-block;
     border-bottom: 3px solid #fcac45;
     padding-bottom: 20px;
@@ -122,8 +123,9 @@ main .main_about {
 .about_right li {
     background: url(img/point.png) 0px no-repeat;
     padding-left: 25px;
-    margin-top: 20px;
+    margin-top: 40px;
     font-family: 'Roboto', sans-serif;
+    font-size: 20  px
 }
 
 .line {
@@ -325,4 +327,28 @@ input, textarea {
 
 .social {
     height: 50px;
+}
+
+.wrapper_about {
+    height: 950px;
+    
+}
+
+.imgc{
+    display: flex;
+ padding-top: 10px;
+ justify-content: space-around;
+ width: 100%;
+}
+
+.imgclo{
+
+    height: 450px;
+    justify-content: space-around;
+    cursor: pointer;
+
+}
+
+.imgc img:hover {
+    opacity: 0.9;
 }

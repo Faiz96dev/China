@@ -352,3 +352,20 @@ input, textarea {
 .imgc img:hover {
     opacity: 0.9;
 }
+
+#toTop {
+    width:100px;
+    border:1px solid #ccc;
+    background:#fcac45;;
+    text-align:center;
+    padding:5px;
+    position:fixed;
+    bottom:10px; /* отступ кнопки от нижнего края страницы*/
+    right:10px;
+    cursor:pointer;
+    display:none;
+    color:#333;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    border-radius: 10px;
+    }

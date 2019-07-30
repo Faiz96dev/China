@@ -29,7 +29,7 @@ header{
 
 .header_logo{
     text-decoration: uppercase;
-    color: #fff;
+    color:  #999999;
     font-weight: 800;
     font-size: 24px;
     cursor: pointer;
@@ -39,12 +39,12 @@ header{
 
 nav{
     margin-top: 56px;
-    margin-left: 56%;
+    margin-left: 36%;
 
 }
 
 .topnav a{
-    color:#fff;
+    color:  #999999;
     text-align: center;
     padding: 12px 16px;
     font-size: 14px;
@@ -53,7 +53,8 @@ nav{
 }
 
 .topnav a:hover{
-    border-bottom:3px solid #fcac45;
+    border-bottom:5px solid #fcac45;
+    color:#ff5e00;
 }
 
 .topnav .icon{
@@ -75,21 +76,23 @@ main .main_welcome{
    
     background: #000;
     text-align:  center;
-    padding: 80px 0px 410px 0px;
+    padding: 80px 0px 150px 0px;
     
 
 }
 
 main .main_welcome p{
 color: #999999;
-font-size: 20px;
+font-size: 25px;
 font-family: 'Roboto', sans-serif;
+padding: 30px
 }
 
 main .main_welcome h1{
     color:  #999999;
-    font-size: 30 px;
+    font-size: 50 px;
     font-family: 'Roboto', sans-serif;
+    padding-bottom: 30px;
     }
 
 .mycompany{
@@ -97,7 +100,8 @@ main .main_welcome h1{
 }
 
 .wrapper{
-    width: 90%;
+    height: 500px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -119,13 +123,15 @@ main .main_about{
 .about_right p{
     margin: 30px 0 50px 0;
     color:#6c6c6c;
+    font-family: 'Roboto', sans-serif;
 
 }
 
 .about_right li{
     background: url(img/point.png) 0px no-repeat;
     padding-left: 25px;
-    margin-top: 10px; 
+    margin-top: 20px; 
+    font-family: 'Roboto', sans-serif;
 }
 
 .line{
@@ -165,7 +171,7 @@ margin-bottom: 20px;
 .main_team{
     background: black;
     text-align: center;
-    padding: 100px 0 156px 0;
+    padding: 100px 0 100px 0;
     color:white;
 }
 
@@ -205,19 +211,19 @@ margin-bottom: 20px;
 
 .main_clients{
     background: black;
-    padding: 100px 0 205px 0;
+    padding: 50px 0 150px 0;
     color: white;
     text-align: center;
 }
 
 .main_clients h1{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
-.main_clients img{
+/* .main_clients img{
     margin-left: 30px;
     margin-top: 10px;
-}
+} */
 
 .main_testimonials{
    background: black;
@@ -242,20 +248,20 @@ margin-bottom: 20px;
 
 .main_work{
 text-align: center;
-padding: 100px 0 100px 0;
+padding: 50px 0 100px 0;
 
 }
 
-.main-work img{
+/* .main-work img{
     margin: 0 30px 30px 0;
-   }
+   } */
 
 .main_work h1{
-       margin-bottom: 30px;
+       /* margin-bottom: 10px; */
    }
 
    .main_work p{
-       margin-bottom: 175px;
+       /* margin-bottom: 175px; */
        color:grey
    }
 
@@ -265,11 +271,11 @@ padding: 100px 0 100px 0;
 
 
 
-   .contact_wrapper{
+   /* .contact_wrapper{
        width: 753px;
        margin: 0 auto;
        color: #636363;
-   }
+   } */
 
    .red{
        color: red
@@ -297,4 +303,43 @@ padding: 100px 0 100px 0;
 
    input, textarea{
        border: 1px solid ;
+   }
+   .clients p{
+       font-size: 30px;
+       margin: 20px
+   }
+
+   .jeanspng{
+       height: 350px;
+   }
+
+   .card{
+       height: 300px;
+       margin: 20px;
+       align-content: flex-end;
+
+   }
+
+   .contacts {
+      
+
+       
+   }
+
+
+   .jeans{
+       height: 400px;
+       margin: 40px
+   }
+
+   .number{
+       font-size: 40px
+   }
+
+   .wrapper_contact{
+height: 300px;
+   }
+
+   .social{
+       height: 50px;
    }

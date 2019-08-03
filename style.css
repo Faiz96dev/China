@@ -23,6 +23,7 @@ header {
     width: 100%;
     background: #000;
     display: flex;
+    
 }
 
 .header_logo {
@@ -65,13 +66,13 @@ main {
 }
 
 .tshirt {
-    height: 300px;
+    height: 350px;
 }
 
 main .main_welcome {
     background: #000;
     text-align: center;
-    padding: 80px 0px 150px 0px;
+    padding: 80px 0px 200px 0px;
 }
 
 main .main_welcome p {
@@ -100,11 +101,15 @@ main .main_welcome h1 {
 
 main .main_about {
     display: flex;
+    justify-content: center;
     padding: 100px 100px 0;
 }
 
 .about_right {
     margin-left: 100px;
+    /* display:flex;
+    justify-content: center; */
+    
 }
 
 .about_right h1 {
@@ -308,6 +313,7 @@ input, textarea {
 }
 
 .contacts {
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -360,12 +366,50 @@ input, textarea {
     text-align:center;
     padding:5px;
     position:fixed;
-    bottom:10px; /* отступ кнопки от нижнего края страницы*/
-    right:10px;
+    bottom:20px; /* отступ кнопки от нижнего края страницы*/
+    right:20px;
     cursor:pointer;
     display:none;
     color:#333;
     font-family: 'Roboto', sans-serif;
     font-size:20px;
     border-radius: 10px;
+    }
+
+
+    @media(min-width: 1920px){
+
+        main .main_welcome p {
+            color: #999999;
+            font-size: 30px;
+            font-family: 'Roboto', sans-serif;
+            padding: 30px
+        }
+
+        .tshirt {
+            height: 600px;
+        }
+        
+        main .main_welcome h1 {
+            color: #999999;
+            font-size: 90 px;
+            font-family: 'Roboto', sans-serif;
+            padding-bottom: 30px;
+        }
+
+
+        main .main_welcome {
+            background: #000;
+            text-align: center;
+            padding: 80px 0px 400px 0px;
+        }
+
+
+        .main_clients {
+            background: black;
+            padding: 50px 0 500px 0;
+            color: white;
+            text-align: center;
+        }
+
     }
